@@ -32,7 +32,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False,
-        "page": ""
+        "page": "https://www.roblox.com"
     },
 
 }
